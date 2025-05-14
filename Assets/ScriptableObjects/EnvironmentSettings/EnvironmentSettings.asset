@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2288c916c0c75b440bdf1512dbc3aed3, type: 3}
+  m_Name: EnvironmentSettings
+  m_EditorClassIdentifier: 
+  SpawnVegetation: 1
+  VegetationRegion: {x: 0.2, y: 0.8}
+  Vegetations:
+  - {fileID: 11400000, guid: 85b945d485e8efa42882e5190270b524, type: 2}
+  - {fileID: 11400000, guid: fbb899a05d400ed42ab36def544f09b0, type: 2}
+  - {fileID: 11400000, guid: 7d32b081e09552d44b08d7eb4ee4ce73, type: 2}
+  - {fileID: 11400000, guid: 62d810d8cfb745c4c81d0368cd241240, type: 2}
+  SpawnGrass: 1
+  GrassVegetations:
+  - {fileID: 11400000, guid: 5fdce39368a78714386b8f0a405987ec, type: 2}
+  - {fileID: 11400000, guid: 0b603a016a5a0b14b8ef12bba2a3af53, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7a8379691d00946ba9e2bc4aec3491, type: 3}
+  m_Name: TerrainSettings
+  m_EditorClassIdentifier: 
+  Seed: 0
+  PointRadius: 0.75
+  SampleRegion: {x: 100, y: 100}
+  NoiseSettings: {fileID: 11400000, guid: 44d8240494cdfa24fb3c97f502410424, type: 2}
+  TerraceHeight: 0.2
+  FallOffRegion: {x: 0.8, y: 1}
+  ExtensionStepCount: 8
+  DetailOffset: 0.02
+  Biomes:
+  - {fileID: 11400000, guid: a6efcddb65fb3d2448651294e9cbf939, type: 2}
+  - {fileID: 11400000, guid: 912e59ebe508ad44daa7fa2b876a65d7, type: 2}
+  - {fileID: 11400000, guid: 12cefa00441d1af4e9c62338ace4ae78, type: 2}
+  - {fileID: 11400000, guid: 72bda1f0e3ea5cf44adf4c52b20b3bcc, type: 2}
